@@ -1,0 +1,3 @@
+device/brcm/rpi4 base=9bd235b423f55a05ab4bddb4cc3ce1a23260817f
+external/v4l2_codec2 base=eb594b7f46997c7d5f3fe8bf36011b507b0746dc
+vendor/arda source=android_vendor_arda:arda-aaos16

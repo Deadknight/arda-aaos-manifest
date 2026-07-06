@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name="arda-github"
+        fetch="https://github.com/Deadknight/" />
+
+    <remove-project
+        name="raspberry-vanilla/android_device_brcm_rpi4" />
+
+    <remove-project
+        name="raspberry-vanilla/android_external_v4l2_codec2" />
+
+    <project
+        name="android_device_brcm_rpi4"
+        path="device/brcm/rpi4"
+        remote="arda-github"
+        revision="arda-aaos16" />
+
+    <project
+        name="android_external_v4l2_codec2"
+        path="external/v4l2_codec2"
+        remote="arda-github"
+        revision="arda-aaos16" />
+
+    <project
+        name="android_vendor_arda"
+        path="vendor/arda"
+        remote="arda-github"
+        revision="arda-aaos16" />
+</manifest>
