@@ -12,4 +12,6 @@
   <project path="device/brcm/rpi5" name="android_device_brcm_rpi5" remote="arda-github" revision="arda-aaos16" />
   <project path="external/v4l2_codec2" name="android_external_v4l2_codec2" remote="arda-github" revision="arda-aaos16" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arda-github" revision="arda-aaos16" />
+  <remove-project name="platform/packages/apps/Car/SystemUI" />
+  <project path="packages/apps/Car/SystemUI" name="android_packages_apps_Car_SystemUI" remote="arda-github" revision="arda-aaos16" />
 </manifest>
