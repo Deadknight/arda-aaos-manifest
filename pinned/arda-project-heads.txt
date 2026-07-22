@@ -1,3 +1,14 @@
-device/brcm/rpi4 base=9bd235b423f55a05ab4bddb4cc3ce1a23260817f
-external/v4l2_codec2 base=eb594b7f46997c7d5f3fe8bf36011b507b0746dc
-vendor/arda source=android_vendor_arda:arda-aaos16
+# ARDA canonical project heads
+# Generated: 2026-07-22T07:16:37Z
+
+android_vendor_arda arda-aaos16 024a34e866da12dd0058cd924005bbb81e4f178f
+android_vendor_arda_ardaplatform main 31fb563632799b972b2cdcfc99bee4bef9ee3802
+arda-aaos-proprietary arda-aaos16 2cc1b90f29c0e896f3351ebfe6938bd6df150b97
+android_device_brcm_rpi4 arda-aaos16 a0b6ae212be2f9815213519860ccb78d56b13734
+android_device_brcm_rpi5 arda-aaos16 9990e45fc538f082fcb32cb19d42bfcba1433eb8
+android_external_v4l2_codec2 arda-aaos16 2bae40cc4e7b3046dcbd3354e09b0d4bb185cf9d
+android_system_sepolicy arda-aaos16 502093f026cce590144a1d8603c119c5ae4c98e6
+
+# Original shallow/grafted local checkpoints retained for provenance:
+system_sepolicy_original_local arda-poc-checkpoint 3cb2d41087c4bfdc7502e892a21f92f5c0186b31
+device_brcm_rpi5_original_local arda-poc-checkpoint 3291215d97a86f2993d23a0235c27ce943a100ba
