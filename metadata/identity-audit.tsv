@@ -1,0 +1,15 @@
+name	url	old_identity_commit_count
+rpi4	https://github.com/Deadknight/android_device_brcm_rpi4.git	0
+rpi5	https://github.com/Deadknight/android_device_brcm_rpi5.git	0
+drm-hwc	https://github.com/Deadknight/android_external_drm_hwcomposer.git	0
+v4l2-codec2	https://github.com/Deadknight/android_external_v4l2_codec2.git	0
+frameworks-av	https://github.com/Deadknight/android_frameworks_av.git	0
+frameworks-native	https://github.com/Deadknight/android_frameworks_native.git	0
+legacy-car-launcher	https://github.com/Deadknight/arda-aaos-car-launcher.git	0
+car-media	https://github.com/Deadknight/android_packages_apps_Car_Media.git	0
+car-media-prebuilt	https://github.com/Deadknight/android_packages_apps_Car_MediaPrebuilt.git	0
+car-systemui	https://github.com/Deadknight/android_packages_apps_Car_SystemUI.git	0
+system-sepolicy	https://github.com/Deadknight/android_system_sepolicy.git	0
+vendor-arda	https://github.com/Deadknight/android_vendor_arda.git	0
+ardaplatform	https://github.com/Deadknight/android_vendor_arda_ardaplatform.git	0
+proprietary	https://github.com/Deadknight/arda-aaos-proprietary.git	0
