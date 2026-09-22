@@ -5,13 +5,13 @@
   <remove-project name="raspberry-vanilla/android_external_v4l2_codec2" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="raspberry-vanilla/android_device_brcm_rpi5" />
-  <project path="vendor/arda" name="android_vendor_arda" remote="arda-github" revision="arda-aaos16" />
-  <project path="vendor/arda/ardaplatform" name="android_vendor_arda_ardaplatform" remote="arda-github" revision="main" />
+  <project path="vendor/arda" name="android_vendor_arda" remote="arda-github" revision="f578df61a42a61269f514616e853433685fac5fd" />
+  <project path="vendor/arda/ardaplatform" name="android_vendor_arda_ardaplatform" remote="arda-github" revision="2241f247e9dc6988a288a2eeb6e04642803fc2fc" />
   <project path="vendor/arda/proprietary" name="arda-aaos-proprietary" remote="arda-github" revision="arda-aaos16" />
   <project path="device/brcm/rpi4" name="android_device_brcm_rpi4" remote="arda-github" revision="arda-aaos16" />
   <project path="device/brcm/rpi5" name="android_device_brcm_rpi5" remote="arda-github" revision="arda-aaos16" />
   <project path="external/v4l2_codec2" name="android_external_v4l2_codec2" remote="arda-github" revision="arda-aaos16" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arda-github" revision="arda-aaos16" />
   <remove-project name="platform/packages/apps/Car/SystemUI" />
-  <project path="packages/apps/Car/SystemUI" name="android_packages_apps_Car_SystemUI" remote="arda-github" revision="arda-aaos16" />
+  <project path="packages/apps/Car/SystemUI" name="android_packages_apps_Car_SystemUI" remote="arda-github" revision="1fdd89070f46cfafcdd351aa7054afc6fc588d41" />
 </manifest>
