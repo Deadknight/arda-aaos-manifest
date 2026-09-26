@@ -6,7 +6,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="raspberry-vanilla/android_device_brcm_rpi5" />
   <project path="vendor/arda" name="android_vendor_arda" remote="arda-github" revision="f578df61a42a61269f514616e853433685fac5fd" />
-  <project path="vendor/arda/ardaplatform" name="android_vendor_arda_ardaplatform" remote="arda-github" revision="da749c8561fe47947c19fac145c7a2f4d298f7e2" />
+  <project path="vendor/arda/ardaplatform" name="android_vendor_arda_ardaplatform" remote="arda-github" revision="bfa9c074e1690647e4dd3f84e2c6a23b2717e0db" />
   <project path="vendor/arda/proprietary" name="arda-aaos-proprietary" remote="arda-github" revision="arda-aaos16" />
   <project path="device/brcm/rpi4" name="android_device_brcm_rpi4" remote="arda-github" revision="arda-aaos16" />
   <project path="device/brcm/rpi5" name="android_device_brcm_rpi5" remote="arda-github" revision="arda-aaos16" />
