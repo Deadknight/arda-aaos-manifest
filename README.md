@@ -27,8 +27,8 @@ Clone this repository outside the AOSP tree, then install the local manifest:
 ```bash
 mkdir -p .repo/local_manifests
 
-cp /path/to/arda-aaos-manifest/local_manifests/arda.xml \
-    .repo/local_manifests/arda.xml
+cp /path/to/arda-aaos-manifest/local_manifests/zz_arda.xml \
+    .repo/local_manifests/zz_arda.xml
 
 repo sync \
     device/brcm/rpi4 \
@@ -52,3 +52,7 @@ m
 
 The proprietary payload repository is deliberately not referenced by the Repo
 manifest.
+
+## Layering order (AAOS 16)
+
+Keep `zz_arda.xml` alphabetically after `manifest_brcm_rpi.xml` and `remove_projects.xml`. The ARDA override must remove the Raspberry Vanilla definitions after they are loaded. Do not restore `arda.xml` alongside `zz_arda.xml` or duplicate project paths will result.
